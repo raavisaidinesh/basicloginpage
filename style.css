@@ -1,0 +1,129 @@
+*{
+    border: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.loginpage{
+    max-width: 650px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #0edaff;
+    border-radius: 20px;
+
+}
+.image{
+    width: 290px;
+    height: 500px;
+    background-image: url(https://images.hdqwalls.com/walls/thumb/stark-elegance-of-tony-stark-ca.jpg);
+    background-size: cover;
+    outline: none;
+    border-radius: 20px;
+}
+body{
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 44%, rgba(252,176,69,1) 100%); */
+    background-image: url(https://images.unsplash.com/photo-1559657693-e816ff3bd9af?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+.logincomp{
+    position: relative;
+    background-color: #0edaff;
+    z-index: 1;
+    left: -16px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#prelog{
+    margin-top: 30px;
+    
+}
+.google{
+    font-size: 15px;
+    margin-right: 7px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.apple{
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.google:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.apple:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+input{
+    width:250px;
+    padding: 13px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.signin{
+    font-size: 15px;
+    width: 280px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.signin:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.others{
+    margin-bottom: 30px;
+}
+.others #one{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.break{
+    position: relative;
+    margin-top: -10px;
+}
+.email{
+    margin-top: -20px;
+    line-height: 0px;
+}
+.password{
+    margin-top: -30px;
+    line-height: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font:bold;
+    font-size: 17px;
+}
+a:hover{
+    color: rgb(49, 49, 154);
+}
+i{
+   margin-right: 6px;
+}
+/* #prelog .google::before{
+    content: ' ';
+    position: absolute;
+    background-image: url(google.png);
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    left:-1px
+} */
+
+
