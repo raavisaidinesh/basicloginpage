@@ -10,7 +10,7 @@
     margin-right: auto;
     margin-bottom: 20px;
     display: flex;
-    background-color: #0edaff;
+    background-color: #cbff0e;
     border-radius: 20px;
 
 }
@@ -30,7 +30,7 @@ body{
 }
 .logincomp{
     position: relative;
-    background-color: #0edaff;
+    background-color: #cbff0e;
     z-index: 1;
     left: -16px;
     flex-grow: 1;
